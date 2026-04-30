@@ -13,7 +13,7 @@ args = parser.parse_args()
 
 img = cv2.imread(args.image)
 #note: Tesseract OCR uses OEM 2, requiring additional ENG training data to be downloaded from their repository.
-if load_pytesseract = True:
+if args.load_pytesseract == True:
     pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
 class interest_region:
